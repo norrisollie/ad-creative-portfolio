@@ -6,7 +6,8 @@ A selection of HTML5 display and rich media creatives, focused on scalable syste
 
 ## Actimel — Technical Task (WPP / Wavemaker)
 
-[GitHub — Actimel 300x250](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Wavemaker:WPP%20Media/DISPLAY%20-%20Actimel%20Triple%20Action%20-%20Technical%20Task%20/300x250) · [Live preview — Actimel 300x250](https://norrisollie.github.io/ad-creative-portfolio/Wavemaker%3AWPP%20Media/DISPLAY%20-%20Actimel%20Triple%20Action%20-%20Technical%20Task%20/300x250/)
+[GitHub — Actimel 300x250](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Wavemaker:WPP%20Media/DISPLAY%20-%20Actimel%20Triple%20Action%20-%20Technical%20Task%20/300x250)
+[Live preview — Actimel 300x250](https://norrisollie.github.io/ad-creative-portfolio/Wavemaker%3AWPP%20Media/DISPLAY%20-%20Actimel%20Triple%20Action%20-%20Technical%20Task%20/300x250/)
 
 ### What it was
 
@@ -29,7 +30,11 @@ A technical build exercise to demonstrate approach to HTML5 ad development, stru
 
 [GitHub — Nectar Prices (all sizes)](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED:SLICED:CHOPPED)
 
-Live previews: [160x600 — Leaderboard Tall](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/160x600/) · [300x250 — MPU](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/300x250/) · [300x600 — Half Page](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/300x600/) · [728x90 — Leaderboard](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/728x90/) · [970x250 — Billboard](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/970x250/)
+**160x600 — Leaderboard Tall:** [Chopped](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/160x600/?variant=chopped) · [Sliced](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/160x600/?variant=sliced) · [Tumbled](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/160x600/?variant=tumbled)
+**300x250 — MPU:** [Chopped](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/300x250/?variant=chopped) · [Sliced](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/300x250/?variant=sliced) · [Tumbled](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/300x250/?variant=tumbled)
+**300x600 — Half Page:** [Chopped](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/300x600/?variant=chopped) · [Sliced](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/300x600/?variant=sliced) · [Tumbled](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/300x600/?variant=tumbled)
+**728x90 — Leaderboard:** [Chopped](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/728x90/?variant=chopped) · [Sliced](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/728x90/?variant=sliced) · [Tumbled](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/728x90/?variant=tumbled)
+**970x250 — Billboard:** [Chopped](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/970x250/?variant=chopped) · [Sliced](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/970x250/?variant=sliced) · [Tumbled](https://norrisollie.github.io/ad-creative-portfolio/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED%3ASLICED%3ACHOPPED/970x250/?variant=tumbled)
 
 ### What it was
 
@@ -52,9 +57,13 @@ Feed-driven display ads for Nectar pricing, with multiple layout variations depe
 
 ## Mercedes — OSP Skins (Just Premium & Sublime)
 
-GitHub: [Just Premium skin](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Mercedes/SKIN%20-%20Just%20Premium%20-%20Mercedes%20OSP) · [Sublime skin](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Mercedes/SKIN%20-%20Sublime%20-%20Mercedes%20OSP)
+GitHub:
+[Just Premium skin](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Mercedes/SKIN%20-%20Just%20Premium%20-%20Mercedes%20OSP)
+[Sublime skin](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Mercedes/SKIN%20-%20Sublime%20-%20Mercedes%20OSP)
 
-Live previews: [Just Premium skin](https://norrisollie.github.io/ad-creative-portfolio/Mercedes/SKIN%20-%20Just%20Premium%20-%20Mercedes%20OSP/) · [Sublime skin](https://norrisollie.github.io/ad-creative-portfolio/Mercedes/SKIN%20-%20Sublime%20-%20Mercedes%20OSP/)
+Live previews:
+[Just Premium skin](https://norrisollie.github.io/ad-creative-portfolio/Mercedes/SKIN%20-%20Just%20Premium%20-%20Mercedes%20OSP/)
+[Sublime skin](https://norrisollie.github.io/ad-creative-portfolio/Mercedes/SKIN%20-%20Sublime%20-%20Mercedes%20OSP/)
 
 ### What it was
 
@@ -79,7 +88,9 @@ High-impact page skins promoting an online car sales platform across two similar
 
 [GitHub — UEFA expandable template](https://github.com/norrisollie/ad-creative-portfolio/tree/main/UEFA/EXPANDING:INTERSTITIAL/TEMPLATE)
 
-Live previews: [Desktop expandable](https://norrisollie.github.io/ad-creative-portfolio/UEFA/EXPANDING%3AINTERSTITIAL/TEMPLATE/desktop-template/) · [Mobile interstitial](https://norrisollie.github.io/ad-creative-portfolio/UEFA/EXPANDING%3AINTERSTITIAL/TEMPLATE/mobile-desktop/)
+Live previews:
+[Desktop expandable](https://norrisollie.github.io/ad-creative-portfolio/UEFA/EXPANDING%3AINTERSTITIAL/TEMPLATE/desktop-template/)
+[Mobile interstitial](https://norrisollie.github.io/ad-creative-portfolio/UEFA/EXPANDING%3AINTERSTITIAL/TEMPLATE/mobile-desktop/)
 
 ### What it was
 
@@ -104,7 +115,8 @@ _Live campaign creatives cannot be shared, so this example is the template used 
 
 ## McDonald’s — Responsive Footer
 
-[GitHub — McDonald's desktop scroller](https://github.com/norrisollie/ad-creative-portfolio/tree/main/McDonalds/DESKTOP%20SCROLLER%20-%20Just%20Premium%20-%20Big%20Mac%20with%20Bacon) · [Live preview — McDonald's desktop scroller](https://norrisollie.github.io/ad-creative-portfolio/McDonalds/DESKTOP%20SCROLLER%20-%20Just%20Premium%20-%20Big%20Mac%20with%20Bacon/)
+[GitHub — McDonald's desktop scroller](https://github.com/norrisollie/ad-creative-portfolio/tree/main/McDonalds/DESKTOP%20SCROLLER%20-%20Just%20Premium%20-%20Big%20Mac%20with%20Bacon)
+[Live preview — McDonald's desktop scroller](https://norrisollie.github.io/ad-creative-portfolio/McDonalds/DESKTOP%20SCROLLER%20-%20Just%20Premium%20-%20Big%20Mac%20with%20Bacon/)
 
 ### What it was
 
