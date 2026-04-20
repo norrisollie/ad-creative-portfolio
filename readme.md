@@ -6,6 +6,8 @@ A selection of HTML5 display and rich media creatives, focused on scalable syste
 
 ## Actimel — Technical Task (WPP / Wavemaker)
 
+[View folder →](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Wavemaker:WPP%20Media/DISPLAY%20-%20Actimel%20Triple%20Action%20-%20Technical%20Task%20/300x250)
+
 ### What it was
 
 A technical build exercise to demonstrate approach to HTML5 ad development, structure, and decision-making.
@@ -24,6 +26,8 @@ A technical build exercise to demonstrate approach to HTML5 ad development, stru
 ---
 
 ## Sainsbury’s — Dynamic Rich Media (Nectar Prices)
+
+[View folder →](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Nectar/DISPLAY%20-%20Nectar%20Prices%20-%20TUMBLED:SLICED:CHOPPED)
 
 ### What it was
 
@@ -46,6 +50,8 @@ Feed-driven display ads for Nectar pricing, with multiple layout variations depe
 
 ## Mercedes — OSP Skins (Just Premium & Sublime)
 
+[Just Premium →](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Mercedes/SKIN%20-%20Just%20Premium%20-%20Mercedes%20OSP) · [Sublime →](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Mercedes/SKIN%20-%20Sublime%20-%20Mercedes%20OSP)
+
 ### What it was
 
 High-impact page skins promoting an online car sales platform across two similar formats.
@@ -66,6 +72,8 @@ High-impact page skins promoting an online car sales platform across two similar
 ---
 
 ## UEFA — Expandable / Interstitial Rich Media (Template)
+
+[View folder →](https://github.com/norrisollie/ad-creative-portfolio/tree/main/UEFA/EXPANDING:INTERSTITIAL/TEMPLATE)
 
 ### What it was
 
@@ -89,6 +97,8 @@ _Live campaign creatives cannot be shared, so this example is the template used 
 ---
 
 ## McDonald’s — Responsive Footer
+
+[View folder →](https://github.com/norrisollie/ad-creative-portfolio/tree/main/McDonalds/DESKTOP%20SCROLLER%20-%20Just%20Premium%20-%20Big%20Mac%20with%20Bacon)
 
 ### What it was
 
