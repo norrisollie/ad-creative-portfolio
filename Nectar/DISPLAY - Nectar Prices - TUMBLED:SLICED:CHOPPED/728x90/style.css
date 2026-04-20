@@ -1,0 +1,540 @@
+@font-face {
+  font-family: "Italian Plate No1 Expanded";
+  src: url("assets/ItalianPlateNo1Expanded-Bold.woff2") format("woff2"),
+    url("assets/ItalianPlateNo1Expanded-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Italian Plate No1 Expanded";
+  src: url("assets/ItalianPlateNo1Expanded-Regular.woff2") format("woff2"),
+    url("assets/ItalianPlateNo1Expanded-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mary Ann";
+  src: url("assets/maryann-bold.woff2") format("woff2"),
+    url("assets/maryann-bold.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+}
+
+body * {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: antialiased;
+  font-family: "Mary Ann";
+  font-weight: 500;
+  line-height: 1;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+img {
+  filter: none;
+  -webkit-filter: blur(0px);
+  -moz-filter: blur(0px);
+  -ms-filter: blur(0px);
+  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}
+
+#ad-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 728px;
+  height: 90px;
+  border: 1px solid #000;
+  margin: auto;
+  cursor: pointer;
+  background-color: #fff;
+  overflow: hidden;
+  justify-content: center;
+}
+
+#sainsburys {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+@keyframes slide-out-copy {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: translateY(600px);
+  }
+}
+
+@keyframes slide-out-copy-tumbled {
+  from {
+    transform: none;
+  }
+
+  to {
+    transform: translateY(600px) rotate(7.5deg);
+  }
+}
+
+@keyframes slide-out-images {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(600px);
+  }
+}
+
+@keyframes slide-in-images2 {
+  from {
+    transform: translateY(-600px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes scale-up {
+  from {
+    transform: scale(0);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+#nectarprices-container {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#nectarprices-ends {
+  font-family: "Italian Plate No1 Expanded";
+  font-size: 11px;
+  font-weight: bold;
+  color: #7202ed;
+  margin-top: 3px;
+}
+
+#offer-container {
+  position: absolute;
+  top: 5px;
+  left: 278px;
+  transform: scale(0);
+  animation: scale-up 0.25s 3.75s ease-in-out forwards,
+    slide-out-images 0.75s 6s ease-in-out forwards;
+  z-index: 200;
+}
+
+#product {
+  position: absolute;
+  top: 5px;
+  left: 350px;
+  height: 80px;
+  transform: translateY(-600px);
+  animation: slide-in-images2 0.75s 3s ease-in-out forwards,
+    slide-out-images 0.75s 6.1s ease-in-out forwards;
+  z-index: 100;
+}
+
+#drinkaware {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  opacity: 0;
+  animation: fade-in 0.25s 3.75s ease forwards, fade-out 0.25s 6s ease forwards;
+}
+
+#exit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#copy-container {
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 100%;
+}
+
+.copy-overflow {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.copy {
+  transform: translateY(100%);
+  animation: copy-slide-up 0.5s 6.75s ease forwards;
+  font-size: 22px;
+  color: #ec8c02;
+  line-height: 1.2;
+}
+
+@keyframes copy-slide-up {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+/* VARIANT IMAGES AND ANIMATON */
+
+@keyframes main-image-rotate1 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes main-image-rotate2 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes main-image-rotate3 {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+
+  50% {
+    transform: translateY(0) rotate(5deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+#main-text1 {
+  position: absolute;
+  opacity: 0;
+  animation: fade-in 0.5s 0.5s ease forwards,
+    slide-out-copy 0.75s 3.1s ease forwards;
+}
+#main-text2 {
+  position: absolute;
+  opacity: 0;
+  animation: fade-in 0.5s 0.5s ease forwards,
+    slide-out-copy 0.75s 3.2s ease forwards;
+}
+
+#image1 {
+  position: absolute;
+  opacity: 0;
+  animation: main-image-rotate1 1s forwards infinite step-end,
+    fade-in 0.5s 0.5s ease forwards, slide-out-images 0.75s 3.3s ease forwards;
+}
+
+#image2 {
+  position: absolute;
+  opacity: 0;
+  animation: main-image-rotate2 1s forwards infinite step-end,
+    fade-in 0.5s 0.5s ease forwards, slide-out-images 0.75s 3s ease forwards;
+}
+
+#image3 {
+  position: absolute;
+  transform: translateY(-600px);
+  animation: slide-in-images2 0.75s 3.1s ease-in-out forwards,
+    main-image-rotate3 1s 3.85s forwards infinite step-end,
+    slide-out-images 0.75s 6.1s ease-in-out forwards;
+}
+
+#image4 {
+  position: absolute;
+  transform: translateY(-600px);
+  animation: slide-in-images2 0.75s 3.2s ease-in-out forwards,
+    main-image-rotate3 1s 3.85s forwards infinite step-end,
+    slide-out-images 0.75s 6.2s ease-in-out forwards;
+}
+
+#image5 {
+  position: absolute;
+  transform: translateY(-600px);
+  animation: slide-in-images2 0.75s 6s ease-in-out forwards,
+    main-image-rotate1 1s 6.75s forwards infinite step-end;
+}
+
+#image6 {
+  position: absolute;
+  transform: translateY(-600px);
+  animation: slide-in-images2 0.75s 6s ease-in-out forwards,
+    main-image-rotate2 1s 6.75s forwards infinite step-end;
+}
+
+/* CHOPPED */
+
+.chopped#main-text1 {
+  top: 0;
+  left: 244px;
+}
+
+.chopped#main-text2 {
+  top: 0;
+  left: 244px;
+}
+
+.chopped#image1 {
+  bottom: 16px;
+  left: 130px;
+}
+
+.chopped#image2 {
+  bottom: -80px;
+  right: 10px;
+}
+
+.chopped#image3 {
+  bottom: 14px;
+  left: 139px;
+}
+
+.chopped#image4 {
+  top: -110px;
+  right: 40px;
+}
+.chopped#image5 {
+  bottom: 14px;
+  left: 125px;
+}
+
+.chopped#image6 {
+  right: 15px;
+  top: -80px;
+}
+
+/* TUMBLED */
+
+.tumbled#main-text1 {
+  top: 10px;
+  left: 209px;
+  transform: rotate(7.5deg);
+  animation: fade-in 0.5s 0.5s ease forwards,
+    slide-out-copy-tumbled 0.75s 3.2s ease forwards;
+}
+
+.tumbled#main-text2 {
+  top: 10px;
+  left: 209px;
+  transform: rotate(7.5deg);
+  animation: fade-in 0.5s 0.5s ease forwards,
+    slide-out-copy-tumbled 0.75s 3.2s ease forwards;
+}
+
+.tumbled#image1 {
+  bottom: 17px;
+  left: 114px;
+}
+
+.tumbled#image2 {
+  top: 24px;
+  right: 80px;
+}
+
+.tumbled#image3 {
+  top: 25px;
+  left: 122px;
+}
+
+.tumbled#image4 {
+  bottom: 20px;
+  right: 104px;
+}
+
+.tumbled#image5 {
+  bottom: 25px;
+  left: 122px;
+}
+
+.tumbled#image6 {
+  top: 27px;
+  right: 104px;
+}
+
+/* SLICED */
+
+.sliced#main-text1 {
+  top: 0;
+  left: 239px;
+}
+
+.sliced#main-text2 {
+  top: 0;
+  left: 239px;
+}
+
+.sliced#image1 {
+  top: 9px;
+  left: 120px;
+}
+
+.sliced#image2 {
+  bottom: 15px;
+  right: 105px;
+}
+
+.sliced#image3 {
+  right: 115px;
+  bottom: 19px;
+}
+
+.sliced#image4 {
+  left: 124px;
+  top: 13px;
+}
+
+.sliced#image5 {
+  right: 115px;
+  bottom: 19px;
+}
+
+.sliced#image6 {
+  left: 124px;
+  top: 13px;
+}
+
+/* shaved */
+
+.shaved#main-text1 {
+  top: 0;
+  left: 239px;
+}
+
+.shaved#main-text2 {
+  top: 0;
+  left: 239px;
+}
+
+.shaved#image1 {
+  top: 9px;
+  left: 120px;
+}
+
+.shaved#image2 {
+  top: 30px;
+  left: 116px;
+}
+
+.shaved#image3 {
+  bottom: 34px;
+  left: 540px;
+}
+
+.shaved#image4 {
+  top: 43px;
+  left: 125px;
+}
+
+.nectar-copy {
+  font-family: "Italian Plate No1 Expanded";
+  font-weight: bold;
+  color: #fff;
+}
+
+#nectar-price-copy {
+  position: absolute;
+  top: 11px;
+  left: 20px;
+  letter-spacing: -0.4px;
+  font-size: 9.5px;
+}
+
+#nectar-price-cost {
+  position: absolute;
+  top: 20px;
+  left: 7px;
+  width: 71px;
+  height: 24px;
+  letter-spacing: -1px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#normal-price-copy {
+  text-align: center;
+  position: absolute;
+  top: 64px;
+  left: 27px;
+  font-size: 6.5px;
+  line-height: 0.9;
+}
+
+#normal-price-cost {
+  position: absolute;
+  top: 51px;
+  left: 9px;
+  width: 39px;
+  height: 13px;
+  text-align: right;
+  font-size: 50px;
+}

@@ -1,0 +1,1329 @@
+@font-face {
+  font-family: "Daimler CS";
+  src: url("assets/DaimlerCS-Regular.woff2") format("woff2"),
+    url("assets/DaimlerCS-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Daimler CAC";
+  src: url("assets/DaimlerCAC-Regular.woff2") format("woff2"),
+    url("assets/DaimlerCAC-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body * {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  font-family: "Daimler CAC";
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+}
+
+#car-container {
+  -webkit-box-align: start;
+  align-items: flex-start;
+  -webkit-box-pack: end;
+  justify-content: flex-end;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  flex-direction: column-reverse;
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 2000px;
+  height: 1200px;
+  transform: translate(50%, 0);
+}
+
+.box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  background-color: #000;
+}
+
+.box.left,
+.box.right {
+  /* top: 550px; */
+  top: 670px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  opacity: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.copy {
+  color: #fff;
+  white-space: nowrap;
+  will-change: contents;
+}
+
+.copy.main {
+  position: absolute;
+  top: 3vw;
+  left: 25px;
+  font-size: 3.6vw;
+  line-height: 1.05;
+  opacity: 0;
+}
+
+.copy.small {
+  font-family: "Daimler CS";
+  font-size: 45%;
+  margin-top: 15px;
+}
+
+.logo {
+  position: absolute;
+}
+
+.logo.top {
+  bottom: 23px;
+  right: 45px;
+}
+
+.logo.left {
+  top: 20px;
+  right: 35px;
+}
+
+.logo.right {
+  top: 20px;
+  left: 35px;
+}
+
+.cta {
+  border-radius: 3px;
+  background-color: #3dadef;
+  padding: 7px 20px 8px 20px;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Daimler CS";
+}
+
+.cta.top {
+  position: absolute;
+  top: 130px;
+  left: 25px;
+  opacity: 0;
+}
+
+.copy.legal {
+  position: absolute;
+  bottom: 19px;
+  left: 25px;
+  font-family: "Daimler CS";
+  font-size: 10px;
+  opacity: 0;
+}
+
+.copy1,
+.cta.top,
+.copy.legal {
+  -webkit-animation: fade-in 1s 0.5s ease forwards;
+  animation: fade-in 1s 0.5s ease forwards;
+}
+
+.copy1 {
+  -webkit-animation: fade-in 1s 0.5s ease forwards,
+    fade-out 1s 7.5s ease forwards;
+  animation: fade-in 1s 0.5s ease forwards, fade-out 1s 7.5s ease forwards;
+}
+
+.copy2 {
+  -webkit-animation: fade-in 1s 7.5s ease forwards,
+    fade-out 1s 10.5s ease forwards;
+  animation: fade-in 1s 7.5s ease forwards, fade-out 1s 10.5s ease forwards;
+}
+
+.copy3 {
+  -webkit-animation: fade-in 1s 11s ease forwards;
+  animation: fade-in 1s 11s ease forwards;
+}
+
+.copy-container {
+  position: absolute;
+  top: 320px;
+  width: 130px;
+  text-align: center;
+}
+
+.copy-container.left {
+  right: 0;
+}
+
+.copy.side {
+  color: #000;
+  -webkit-animation: none;
+  animation: none;
+  margin-bottom: 15px;
+  font-size: 25.3px;
+}
+
+.cta.side {
+  text-align: center;
+  font-size: 17px;
+  line-height: 1;
+  padding: 8px 10px 10px 10px;
+}
+
+#phone-container {
+  position: absolute;
+  top: 10px;
+  left: 130px;
+  -webkit-transform: translateY(100%);
+  transform: translateY(100%);
+}
+
+.phone-container-animation {
+  -webkit-animation: slide-up 1s ease forwards;
+  animation: slide-up 1s ease forwards;
+}
+
+@-webkit-keyframes slide-up {
+  from {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-up {
+  from {
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+  }
+
+  to {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+#phone-scroll-container {
+  position: absolute;
+  top: 36px;
+  left: 43px;
+  width: 138px;
+  height: 176px;
+  -webkit-transform: rotate(5.6deg);
+  transform: rotate(5.6deg);
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  overflow: hidden;
+}
+
+#phone-scroll {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 567px;
+  background-image: url(assets/scroll.jpg);
+  background-size: contain;
+  background-position: top center;
+  background-repeat: no-repeat;
+  will-change: contents;
+}
+
+.phone-animation {
+  -webkit-animation: fade-in 1s 1s ease forwards;
+  animation: fade-in 1s 1s ease forwards;
+}
+
+.row {
+  display: -webkit-box;
+  display: flex;
+  width: 100%;
+  height: 37px;
+  min-height: 37px;
+  box-sizing: content-box;
+}
+
+.car,
+.inner-car {
+  will-change: contents;
+}
+
+.car {
+  width: 62.5px;
+  min-width: 62.5px;
+  height: 37px;
+  min-height: 37px;
+  box-sizing: border-box;
+  opacity: 0;
+  will-change: contents;
+}
+
+.car-animation {
+  -webkit-animation: car-animation 0.3s ease forwards;
+  animation: car-animation 0.3s ease forwards;
+}
+
+.car > img {
+  width: 100%;
+}
+
+.car-sides {
+  opacity: 0;
+  -webkit-transition: opacity 1s ease;
+  transition: opacity 1s ease;
+  margin-bottom: 10px;
+}
+
+.car-sides-animation {
+  -webkit-animation: fade-in 1s 1s ease forwards;
+  animation: fade-in 1s 1s ease forwards;
+}
+
+.inner-car {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+}
+
+.hide-car {
+  -webkit-animation: fade-out 0.3s ease forwards;
+  animation: fade-out 0.3s ease forwards;
+}
+
+.side-container {
+  padding: 0 10px 5px 10px;
+  background-color: #fff;
+  text-align: left;
+}
+
+#sheen-container {
+  position: absolute;
+  top: 32px;
+  left: 166px;
+  width: 134px;
+  height: 230px;
+  -webkit-transform: rotate(5.6deg);
+  transform: rotate(5.6deg);
+  border-radius: 10px 10px 0 0;
+  opacity: 0;
+}
+
+#sheen {
+  position: absolute;
+  top: -200px;
+  left: -50%;
+  width: 200%;
+  height: 300px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(255, 255, 255, 0)),
+    color-stop(50%, rgba(214, 214, 214, 0.36)),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(214, 214, 214, 0.36) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  -webkit-transform: rotate(-11.2deg) translateY(1000px);
+  transform: rotate(-11.2deg) translateY(1000px);
+  overflow: hidden;
+}
+
+#scroll {
+  position: absolute;
+  top: 31px;
+  left: 0;
+  width: 100%;
+  height: 718px;
+  background-image: url(assets/scroll.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.scroll-animation {
+  -webkit-animation: scroll-animation 5s ease forwards;
+  animation: scroll-animation 5s ease forwards;
+}
+
+@-webkit-keyframes scroll-animation {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  10% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  45% {
+    -webkit-transform: translateY(-175px);
+    transform: translateY(-175px);
+  }
+
+  55% {
+    -webkit-transform: translateY(-175px);
+    transform: translateY(-175px);
+  }
+
+  90% {
+    -webkit-transform: translateY(-362px);
+    transform: translateY(-362px);
+  }
+  100% {
+    -webkit-transform: translateY(-362px);
+    transform: translateY(-362px);
+  }
+}
+
+@keyframes scroll-animation {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  10% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  45% {
+    -webkit-transform: translateY(-175px);
+    transform: translateY(-175px);
+  }
+
+  55% {
+    -webkit-transform: translateY(-175px);
+    transform: translateY(-175px);
+  }
+
+  90% {
+    -webkit-transform: translateY(-362px);
+    transform: translateY(-362px);
+  }
+  100% {
+    -webkit-transform: translateY(-362px);
+    transform: translateY(-362px);
+  }
+}
+
+.sheen-animation {
+  -webkit-animation: sheen 4s ease forwards;
+  animation: sheen 4s ease forwards;
+}
+
+@-webkit-keyframes sheen {
+  from {
+    -webkit-transform: rotate(-5.6deg) translateY(500px);
+    transform: rotate(-5.6deg) translateY(500px);
+  }
+  to {
+    -webkit-transform: rotate(-5.6deg) translateY(-500px);
+    transform: rotate(-5.6deg) translateY(-500px);
+  }
+}
+
+@keyframes sheen {
+  from {
+    -webkit-transform: rotate(-5.6deg) translateY(500px);
+    transform: rotate(-5.6deg) translateY(500px);
+  }
+  to {
+    -webkit-transform: rotate(-5.6deg) translateY(-500px);
+    transform: rotate(-5.6deg) translateY(-500px);
+  }
+}
+
+@-webkit-keyframes car-animation {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@keyframes car-animation {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-height: 815px) {
+  /* .copy-container.left,
+  .copy-container.right {
+    top: 390px;
+  } */
+
+  .box.left,
+  .box.right {
+    top: 635px;
+  }
+}
+
+@media screen and (max-height: 780px) {
+  /* .copy-container.left,
+  .copy-container.right {
+    top: 355px;
+  } */
+
+  .box.left,
+  .box.right {
+    top: 595px;
+  }
+}
+@media screen and (max-height: 730px) {
+  /* .copy-container.left,
+  .copy-container.right {
+    top: 315px;
+  } */
+
+  .box.left,
+  .box.right {
+    top: 560px;
+  }
+}
+
+@media screen and (max-height: 680px) {
+  .copy-container.left,
+  .copy-container.right {
+    top: 280px;
+  }
+
+  .box.left,
+  .box.right {
+    top: 525px;
+  }
+  .logo.left,
+  .logo.right {
+    top: 20px;
+  }
+}
+
+/* @keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-height: 850px) {
+  .copy-container {
+    top: 376px;
+  }
+}
+
+@media screen and (max-height: 790px) {
+  .copy-container {
+    top: 341px;
+  }
+}
+@media screen and (max-height: 740px) {
+  .copy-container {
+    top: 300px;
+  }
+}
+@media screen and (max-height: 688px) {
+  .copy-container {
+    top: 267px;
+  }
+}
+@media screen and (max-height: 688px) {
+  .copy-container {
+    top: 267px;
+  }
+  .box.left,
+  .box.right {
+    top: 485px;
+  }
+
+  .logo.left,
+  .logo.right {
+    top: 20px;
+  }
+}
+
+.row {
+  height: 37px;
+  box-sizing: content-box;
+}
+
+.car {
+  width: 62.5px;
+  height: 100%;
+  float: left;
+  position: relative;
+  animation: car-animation 0.3s ease forwards;
+  transition: background-color 0.15s ease;
+  background-image: url(assets/car1.jpg);
+  background-size: contain;
+  will-change: contents;
+  transform: scaleY(-1);
+}
+
+.inner-car {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/car2.jpg);
+  background-size: contain;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+.inner-car.complete {
+  opacity: 1;
+}
+
+@keyframes car-animation {
+  0% {
+    transform: scale(1) scaleY(-1);
+  }
+  50% {
+    transform: scale(1.1) scaleY(-1);
+  }
+  100% {
+    transform: scale(1) scaleY(-1);
+  }
+}
+
+.final-car {
+  width: 100%;
+  height: 43px;
+  background-image: url(assets/final-car.png);
+  margin-bottom: 15px;
+}
+
+.final-car.left {
+}
+
+.final-car.right {
+}
+
+.hide-car {
+  animation: fade-out 0.3s ease forwards;
+}
+
+@keyframes fade-out {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+} */
+
+#star {
+  position: absolute;
+  left: 117px;
+  background-image: url(assets/star.jpg);
+  width: 11px;
+  height: 9.5px;
+  opacity: 0;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  top: 469px;
+}
+
+/* prettier ignore */
+.c1 {
+  background-image: url(assets/car-1.jpg);
+}
+.c2 {
+  background-image: url(assets/car-2.jpg);
+}
+.c3 {
+  background-image: url(assets/car-3.jpg);
+}
+.c4 {
+  background-image: url(assets/car-4.jpg);
+}
+.c5 {
+  background-image: url(assets/car-5.jpg);
+}
+.c6 {
+  background-image: url(assets/car-6.jpg);
+}
+.c7 {
+  background-image: url(assets/car-7.jpg);
+}
+.c8 {
+  background-image: url(assets/car-8.jpg);
+}
+.c9 {
+  background-image: url(assets/car-9.jpg);
+}
+.c10 {
+  background-image: url(assets/car-10.jpg);
+}
+.c11 {
+  background-image: url(assets/car-11.jpg);
+}
+.c12 {
+  background-image: url(assets/car-12.jpg);
+}
+.c13 {
+  background-image: url(assets/car-13.jpg);
+}
+.c14 {
+  background-image: url(assets/car-14.jpg);
+}
+.c15 {
+  background-image: url(assets/car-15.jpg);
+}
+.c16 {
+  background-image: url(assets/car-16.jpg);
+}
+.c17 {
+  background-image: url(assets/car-17.jpg);
+}
+.c18 {
+  background-image: url(assets/car-18.jpg);
+}
+.c19 {
+  background-image: url(assets/car-19.jpg);
+}
+.c20 {
+  background-image: url(assets/car-20.jpg);
+}
+.c21 {
+  background-image: url(assets/car-21.jpg);
+}
+.c22 {
+  background-image: url(assets/car-22.jpg);
+}
+.c23 {
+  background-image: url(assets/car-23.jpg);
+}
+.c24 {
+  background-image: url(assets/car-24.jpg);
+}
+.c25 {
+  background-image: url(assets/car-25.jpg);
+}
+.c26 {
+  background-image: url(assets/car-26.jpg);
+}
+.c27 {
+  background-image: url(assets/car-27.jpg);
+}
+.c28 {
+  background-image: url(assets/car-28.jpg);
+}
+.c29 {
+  background-image: url(assets/car-29.jpg);
+}
+.c30 {
+  background-image: url(assets/car-30.jpg);
+}
+.c31 {
+  background-image: url(assets/car-31.jpg);
+}
+.c32 {
+  background-image: url(assets/car-32.jpg);
+}
+.c33 {
+  background-image: url(assets/car-33.jpg);
+}
+.c34 {
+  background-image: url(assets/car-34.jpg);
+}
+.c35 {
+  background-image: url(assets/car-35.jpg);
+}
+.c36 {
+  background-image: url(assets/car-36.jpg);
+}
+.c37 {
+  background-image: url(assets/car-37.jpg);
+}
+.c38 {
+  background-image: url(assets/car-38.jpg);
+}
+.c39 {
+  background-image: url(assets/car-39.jpg);
+}
+.c40 {
+  background-image: url(assets/car-40.jpg);
+}
+.c41 {
+  background-image: url(assets/car-41.jpg);
+}
+.c42 {
+  background-image: url(assets/car-42.jpg);
+}
+.c43 {
+  background-image: url(assets/car-43.jpg);
+}
+.c44 {
+  background-image: url(assets/car-44.jpg);
+}
+.c45 {
+  background-image: url(assets/car-45.jpg);
+}
+.c46 {
+  background-image: url(assets/car-46.jpg);
+}
+.c47 {
+  background-image: url(assets/car-47.jpg);
+}
+.c48 {
+  background-image: url(assets/car-48.jpg);
+}
+.c49 {
+  background-image: url(assets/car-49.jpg);
+}
+.c50 {
+  background-image: url(assets/car-50.jpg);
+}
+.c51 {
+  background-image: url(assets/car-51.jpg);
+}
+.c52 {
+  background-image: url(assets/car-52.jpg);
+}
+.c53 {
+  background-image: url(assets/car-53.jpg);
+}
+.c54 {
+  background-image: url(assets/car-54.jpg);
+}
+.c55 {
+  background-image: url(assets/car-55.jpg);
+}
+.c56 {
+  background-image: url(assets/car-56.jpg);
+}
+.c57 {
+  background-image: url(assets/car-57.jpg);
+}
+.c58 {
+  background-image: url(assets/car-58.jpg);
+}
+.c59 {
+  background-image: url(assets/car-59.jpg);
+}
+.c60 {
+  background-image: url(assets/car-60.jpg);
+}
+.c61 {
+  background-image: url(assets/car-61.jpg);
+}
+.c62 {
+  background-image: url(assets/car-62.jpg);
+}
+.c63 {
+  background-image: url(assets/car-63.jpg);
+}
+.c64 {
+  background-image: url(assets/car-64.jpg);
+}
+.c65 {
+  background-image: url(assets/car-65.jpg);
+}
+.c66 {
+  background-image: url(assets/car-66.jpg);
+}
+.c67 {
+  background-image: url(assets/car-67.jpg);
+}
+.c68 {
+  background-image: url(assets/car-68.jpg);
+}
+.c69 {
+  background-image: url(assets/car-69.jpg);
+}
+.c70 {
+  background-image: url(assets/car-70.jpg);
+}
+.c71 {
+  background-image: url(assets/car-71.jpg);
+}
+.c72 {
+  background-image: url(assets/car-72.jpg);
+}
+.c73 {
+  background-image: url(assets/car-73.jpg);
+}
+.c74 {
+  background-image: url(assets/car-74.jpg);
+}
+.c75 {
+  background-image: url(assets/car-75.jpg);
+}
+.c76 {
+  background-image: url(assets/car-76.jpg);
+}
+.c77 {
+  background-image: url(assets/car-77.jpg);
+}
+.c78 {
+  background-image: url(assets/car-78.jpg);
+}
+.c79 {
+  background-image: url(assets/car-79.jpg);
+}
+.c80 {
+  background-image: url(assets/car-80.jpg);
+}
+.c81 {
+  background-image: url(assets/car-81.jpg);
+}
+.c82 {
+  background-image: url(assets/car-82.jpg);
+}
+.c83 {
+  background-image: url(assets/car-83.jpg);
+}
+.c84 {
+  background-image: url(assets/car-84.jpg);
+}
+.c85 {
+  background-image: url(assets/car-85.jpg);
+}
+.c86 {
+  background-image: url(assets/car-86.jpg);
+}
+.c87 {
+  background-image: url(assets/car-87.jpg);
+}
+.c88 {
+  background-image: url(assets/car-88.jpg);
+}
+.c89 {
+  background-image: url(assets/car-89.jpg);
+}
+.c90 {
+  background-image: url(assets/car-90.jpg);
+}
+.c91 {
+  background-image: url(assets/car-91.jpg);
+}
+.c92 {
+  background-image: url(assets/car-92.jpg);
+}
+.c93 {
+  background-image: url(assets/car-93.jpg);
+}
+.c94 {
+  background-image: url(assets/car-94.jpg);
+}
+.c95 {
+  background-image: url(assets/car-95.jpg);
+}
+.c96 {
+  background-image: url(assets/car-96.jpg);
+}
+.c97 {
+  background-image: url(assets/car-97.jpg);
+}
+.c98 {
+  background-image: url(assets/car-98.jpg);
+}
+.c99 {
+  background-image: url(assets/car-99.jpg);
+}
+.c100 {
+  background-image: url(assets/car-100.jpg);
+}
+.c101 {
+  background-image: url(assets/car-101.jpg);
+}
+.c102 {
+  background-image: url(assets/car-102.jpg);
+}
+.c103 {
+  background-image: url(assets/car-103.jpg);
+}
+.c104 {
+  background-image: url(assets/car-104.jpg);
+}
+.c105 {
+  background-image: url(assets/car-105.jpg);
+}
+.c106 {
+  background-image: url(assets/car-106.jpg);
+}
+.c107 {
+  background-image: url(assets/car-107.jpg);
+}
+.c108 {
+  background-image: url(assets/car-108.jpg);
+}
+.c109 {
+  background-image: url(assets/car-109.jpg);
+}
+.c110 {
+  background-image: url(assets/car-110.jpg);
+}
+.c111 {
+  background-image: url(assets/car-111.jpg);
+}
+.c112 {
+  background-image: url(assets/car-112.jpg);
+}
+.c113 {
+  background-image: url(assets/car-113.jpg);
+}
+.c114 {
+  background-image: url(assets/car-114.jpg);
+}
+.c115 {
+  background-image: url(assets/car-115.jpg);
+}
+.c116 {
+  background-image: url(assets/car-116.jpg);
+}
+.c117 {
+  background-image: url(assets/car-117.jpg);
+}
+.c118 {
+  background-image: url(assets/car-118.jpg);
+}
+.c119 {
+  background-image: url(assets/car-119.jpg);
+}
+.c120 {
+  background-image: url(assets/car-120.jpg);
+}
+.c121 {
+  background-image: url(assets/car-121.jpg);
+}
+.c122 {
+  background-image: url(assets/car-122.jpg);
+}
+.c123 {
+  background-image: url(assets/car-123.jpg);
+}
+.c124 {
+  background-image: url(assets/car-124.jpg);
+}
+.c125 {
+  background-image: url(assets/car-125.jpg);
+}
+.c126 {
+  background-image: url(assets/car-126.jpg);
+}
+.c127 {
+  background-image: url(assets/car-127.jpg);
+}
+.c128 {
+  background-image: url(assets/car-128.jpg);
+}
+.c129 {
+  background-image: url(assets/car-129.jpg);
+}
+.c130 {
+  background-image: url(assets/car-130.jpg);
+}
+.c131 {
+  background-image: url(assets/car-131.jpg);
+}
+.c132 {
+  background-image: url(assets/car-132.jpg);
+}
+.c133 {
+  background-image: url(assets/car-133.jpg);
+}
+.c134 {
+  background-image: url(assets/car-134.jpg);
+}
+.c135 {
+  background-image: url(assets/car-135.jpg);
+}
+.c136 {
+  background-image: url(assets/car-136.jpg);
+}
+.c137 {
+  background-image: url(assets/car-137.jpg);
+}
+.c138 {
+  background-image: url(assets/car-138.jpg);
+}
+.c139 {
+  background-image: url(assets/car-139.jpg);
+}
+.c140 {
+  background-image: url(assets/car-140.jpg);
+}
+.c141 {
+  background-image: url(assets/car-141.jpg);
+}
+.c142 {
+  background-image: url(assets/car-142.jpg);
+}
+.c143 {
+  background-image: url(assets/car-143.jpg);
+}
+.c144 {
+  background-image: url(assets/car-144.jpg);
+}
+.c145 {
+  background-image: url(assets/car-145.jpg);
+}
+.c146 {
+  background-image: url(assets/car-146.jpg);
+}
+.c147 {
+  background-image: url(assets/car-147.jpg);
+}
+.c148 {
+  background-image: url(assets/car-148.jpg);
+}
+.c149 {
+  background-image: url(assets/car-149.jpg);
+}
+.c150 {
+  background-image: url(assets/car-150.jpg);
+}
+.c151 {
+  background-image: url(assets/car-151.jpg);
+}
+.c152 {
+  background-image: url(assets/car-152.jpg);
+}
+.c153 {
+  background-image: url(assets/car-153.jpg);
+}
+.c154 {
+  background-image: url(assets/car-154.jpg);
+}
+.c155 {
+  background-image: url(assets/car-155.jpg);
+}
+.c156 {
+  background-image: url(assets/car-156.jpg);
+}
+.c157 {
+  background-image: url(assets/car-157.jpg);
+}
+.c158 {
+  background-image: url(assets/car-158.jpg);
+}
+.c159 {
+  background-image: url(assets/car-159.jpg);
+}
+.c160 {
+  background-image: url(assets/car-160.jpg);
+}
+.c161 {
+  background-image: url(assets/car-161.jpg);
+}
+.c162 {
+  background-image: url(assets/car-162.jpg);
+}
+.c163 {
+  background-image: url(assets/car-163.jpg);
+}
+.c164 {
+  background-image: url(assets/car-164.jpg);
+}
+.c165 {
+  background-image: url(assets/car-165.jpg);
+}
+.c166 {
+  background-image: url(assets/car-166.jpg);
+}
+.c167 {
+  background-image: url(assets/car-167.jpg);
+}
+.c168 {
+  background-image: url(assets/car-168.jpg);
+}
+.c169 {
+  background-image: url(assets/car-169.jpg);
+}
+.c170 {
+  background-image: url(assets/car-170.jpg);
+}
+.c171 {
+  background-image: url(assets/car-171.jpg);
+}
+.c172 {
+  background-image: url(assets/car-172.jpg);
+}
+.c173 {
+  background-image: url(assets/car-173.jpg);
+}
+.c174 {
+  background-image: url(assets/car-174.jpg);
+}
+.c175 {
+  background-image: url(assets/car-175.jpg);
+}
+.c176 {
+  background-image: url(assets/car-176.jpg);
+}
+.c177 {
+  background-image: url(assets/car-177.jpg);
+}
+.c178 {
+  background-image: url(assets/car-178.jpg);
+}
+.c179 {
+  background-image: url(assets/car-179.jpg);
+}
+.c180 {
+  background-image: url(assets/car-180.jpg);
+}
+.c181 {
+  background-image: url(assets/car-181.jpg);
+}
+.c182 {
+  background-image: url(assets/car-182.jpg);
+}
+.c183 {
+  background-image: url(assets/car-183.jpg);
+}
+.c184 {
+  background-image: url(assets/car-184.jpg);
+}
+.c185 {
+  background-image: url(assets/car-185.jpg);
+}
+.c186 {
+  background-image: url(assets/car-186.jpg);
+}
+.c187 {
+  background-image: url(assets/car-187.jpg);
+}
+.c188 {
+  background-image: url(assets/car-188.jpg);
+}
+.c189 {
+  background-image: url(assets/car-189.jpg);
+}
+.c190 {
+  background-image: url(assets/car-190.jpg);
+}
+.c191 {
+  background-image: url(assets/car-191.jpg);
+}
+.c192 {
+  background-image: url(assets/car-192.jpg);
+}
+.c193 {
+  background-image: url(assets/car-193.jpg);
+}
+.c194 {
+  background-image: url(assets/car-194.jpg);
+}
+.c195 {
+  background-image: url(assets/car-195.jpg);
+}
+.c196 {
+  background-image: url(assets/car-196.jpg);
+}
+.c197 {
+  background-image: url(assets/car-197.jpg);
+}
+/* prettier-ignore-end */

@@ -1,0 +1,12 @@
+{
+	"clickurl": "http://www.example.com",
+	"format": "Half Page Desktop Scroller",
+
+	"size": {
+		"ratio": 4.4
+	},
+
+	"style": {
+		"background": "white"
+	}
+}
