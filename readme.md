@@ -74,31 +74,26 @@ Feed-driven display ads for Nectar pricing, with multiple layout variations depe
 
 ---
 
-## Mercedes — OSP Skins (Just Premium & Sublime)
+## Mercedes — OSP Skin (Sublime)
 
-GitHub:
-[Just Premium skin](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Mercedes/SKIN%20-%20Just%20Premium%20-%20Mercedes%20OSP)
-[Sublime skin](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Mercedes/SKIN%20-%20Sublime%20-%20Mercedes%20OSP)
-
-Live previews:
-[Just Premium skin](https://norrisollie.github.io/ad-creative-portfolio/Mercedes/SKIN%20-%20Just%20Premium%20-%20Mercedes%20OSP/)
-[Sublime skin](https://norrisollie.github.io/ad-creative-portfolio/Mercedes/SKIN%20-%20Sublime%20-%20Mercedes%20OSP/)
+[GitHub — Sublime skin](https://github.com/norrisollie/ad-creative-portfolio/tree/main/Mercedes/SKIN%20-%20Sublime%20-%20Mercedes%20OSP)
+[Live preview — Sublime skin](https://norrisollie.github.io/ad-creative-portfolio/Mercedes/SKIN%20-%20Sublime%20-%20Mercedes%20OSP/)
 
 ### What it was
 
-High-impact page skins promoting an online car sales platform across two similar formats.
+A high-impact page skin promoting an online car sales platform, built across two vendor formats: Just Premium and Sublime. Just Premium required uploading into their own rigid platform template, whereas Sublime gave full creative control — I built the template, which they would then adapt and serve. The Just Premium build is not available here, but it acted as the creative master that the Sublime version was derived from.
 
 ### What I did
 
-- Built a single master creative for Just Premium
-- Adapted it for Sublime (more flexible format)
-- Created animated background grid of cars with diagonal wave motion
+- Built the Just Premium creative within their platform's template constraints (not available in portfolio)
+- Used it as the master to derive the Sublime version, taking advantage of Sublime's more flexible template approach
+- Created animated background grid of cars with a diagonal wave motion — each car would scale up then back down, fading out as it went, with the next car fading in to continue the wave across the grid
 - Added interaction animations (scrolling phone UI, favouriting behaviour)
 
 ### Why
 
-- One master reduced duplication and kept logic consistent
-- Adaptation approach was faster and safer than building two separate creatives
+- Just Premium's constraints defined the creative direction; Sublime's flexibility made adaptation straightforward
+- Owning the Sublime template meant more control over structure, animation, and output quality
 - Animations were used to demonstrate product behaviour, not just decorate
 
 ---
